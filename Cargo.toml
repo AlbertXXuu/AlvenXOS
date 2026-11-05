@@ -1,0 +1,14 @@
+[package]
+name = "alvenx-core"
+version = "0.6.0"
+edition = "2024"
+publish = false
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+opt-level = 2
+debug = 2
+overflow-checks = true

@@ -1,0 +1,6 @@
+# Source-only archive boundary; this does not filter Git push/history.
+/AGENTS.md export-ignore
+/STAGE-*.md export-ignore
+/PARSER-FIX.md export-ignore
+/LEARNING.md export-ignore
+/results export-ignore

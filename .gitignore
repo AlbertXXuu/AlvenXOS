@@ -1,0 +1,31 @@
+/target/
+/build/
+/results/*
+!/results/.gitkeep
+*.log
+__pycache__/
+
+# Private comparison material and its history/archives are outside this repo.
+/kernel/
+/baselines/
+/evidence/
+test_claude_plugin.py
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.pack
+*.bundle
+
+# Local credentials/configuration are never publication inputs.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
